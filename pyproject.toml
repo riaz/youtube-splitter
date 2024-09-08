@@ -1,0 +1,17 @@
+
+[tool.poetry]
+name = "youtube-splitter"
+version = "0.1.0"
+description = "A youtube video and audio splitter"
+authors = ["Riaz <riaz.2012@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ffmpeg-python = "^0.2.0"
+yt-dlp = "^2024.8.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
